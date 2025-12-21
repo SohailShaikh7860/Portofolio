@@ -1,8 +1,8 @@
-import HeaderSection from "../components/layouts/HeaderSection";
+import HeroSection from "../components/layouts/HeroSection";
 export default function Home() {
   return (
-      <main className="min-h-screen bg-black flex ">
-           <HeaderSection />
+      <main className="h-screen bg-black">
+           <HeroSection />
       </main>
   );
 }
