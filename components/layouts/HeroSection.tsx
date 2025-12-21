@@ -1,5 +1,6 @@
 import Image from "next/image"
-
+import { skills } from "@/constants/skills"
+import { Button } from "../ui/button"
 const HeroSection = () => {
   return (
     <section className='w-full flex flex-col justify-center items-center pt-20 p-8'>
@@ -51,6 +52,23 @@ const HeroSection = () => {
                   Currently in Third Year
                 </span>
               </div>
+            </div>
+
+            <div className="text-white mt-12 max-w-2xl w-full">
+              <h3 className="font-bold text-2xl mb-4">Skills</h3>
+              {Object.entries(skills).map(([category, skillList])=>(
+                <div key={category} className="mb-6 flex items-start  sm:gap-4">
+                  <h4 className="text-sm sm:text-lg font-semibold capitalize text-gray-400 min-w-25 pt-2">{category}:</h4>
+
+                  <div className="flex flex-wrap gap-2">
+                    {skillList.map((skill) => (
+                      <Button key={skill} variant="outline" className="text-sm bg-blue-500 hover:bg-blue-600 border-blue-600">
+                        {skill}
+                      </Button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
         </div>
 

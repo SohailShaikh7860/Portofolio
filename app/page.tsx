@@ -1,7 +1,7 @@
 import HeroSection from "../components/layouts/HeroSection";
 export default function Home() {
   return (
-      <main className="h-screen bg-black">
+      <main className="min-h-screen bg-black pb-20">
            <HeroSection />
       </main>
   );
