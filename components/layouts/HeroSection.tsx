@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { skills } from "@/constants/skills";
 import { Button } from "../ui/button";
+import ProjectCard from "./ProjectCard";
+import { projects } from "@/constants/projects";
+
 const HeroSection = () => {
   return (
     <section className="w-full flex flex-col justify-center items-center pt-10 sm:pt-20 px-4 sm:px-8 py-8">
@@ -89,11 +92,11 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className=" mt-14 text-center sm:mt-16">
+        <div className="mt-14 text-center sm:mt-16 max-w-7xl mx-auto">
           <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold">
             Projects
           </div>
-          <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2 ml-6">
+          <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">
             Projects & Experiments
           </h2>
           <p className="text-muted-foreground md:text-xl/relaxed mt-2 text-center">
@@ -101,6 +104,12 @@ const HeroSection = () => {
             implementations to full-stack applications, showcasing my growth and
             practical problem-solving skills.
           </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 max-w-6xl mx-auto">
+            {projects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
