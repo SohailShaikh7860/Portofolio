@@ -7,7 +7,7 @@ import { projects } from "@/constants/projects";
 const HeroSection = () => {
   return (
     <section className="w-full flex flex-col justify-center items-center pt-10 sm:pt-20 px-4 sm:px-8 py-8">
-      <div className="flex flex-col-reverse sm:flex-row justify-center items-center gap-4 sm:gap-8 w-full max-w-6xl">
+      <div className="flex flex-col-reverse sm:flex-row justify-center items-center gap-4 sm:gap-8 w-full max-w-6xl" id="home">
         <div className="text-white flex flex-col items-center sm:items-start text-center sm:text-left">
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
             Hi, i'm Sohail{" "}
@@ -110,6 +110,15 @@ const HeroSection = () => {
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
+        </div>
+
+        <div className="mt-16 text-center sm:mt-16 max-w-7xl mx-auto">
+          <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold">
+            Contact
+          </div>
+          <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">Get In Touch</h2>
+          <p className="text-gray-400 md:text-xl/relaxed mt-2 text-center">Want to chat? Just shoot me a mail at
+          <a href="mailto:example@gmail.com" className="text-blue-500 hover:underline"> with a direct question</a> and I'll respond whenever I can. I will ignore all soliciting.</p>
         </div>
       </div>
     </section>
