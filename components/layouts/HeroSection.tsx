@@ -3,6 +3,7 @@ import { skills } from "@/constants/skills";
 import { Button } from "../ui/button";
 import ProjectCard from "./ProjectCard";
 import { projects } from "@/constants/projects";
+import  Contact  from "@/components/layouts/Contact";
 
 const HeroSection = () => {
   return (
@@ -112,14 +113,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="mt-16 text-center sm:mt-16 max-w-7xl mx-auto">
-          <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold">
-            Contact
-          </div>
-          <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">Get In Touch</h2>
-          <p className="text-gray-400 md:text-xl/relaxed mt-2 text-center">Want to chat? Just shoot me a mail at
-          <a href="mailto:example@gmail.com" className="text-blue-500 hover:underline"> with a direct question</a> and I'll respond whenever I can. I will ignore all soliciting.</p>
-        </div>
+        <Contact />
       </div>
     </section>
   );
