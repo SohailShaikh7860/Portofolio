@@ -93,7 +93,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="mt-14 text-center sm:mt-16 max-w-7xl mx-auto">
+        <div className="mt-14 text-center sm:mt-16 max-w-7xl mx-auto" id="projects">
           <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold">
             Projects
           </div>

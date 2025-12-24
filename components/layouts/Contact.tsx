@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <div className="mt-16 text-center sm:mt-16 max-w-2xl mx-auto px-4">
-      <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold">
+      <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold " id="contact">
         Contact
       </div>
       <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">
