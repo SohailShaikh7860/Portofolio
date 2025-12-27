@@ -41,9 +41,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
       </CardContent>
       <CardFooter className="px-6 pb-4 pt-0 flex gap-3">
+        {project.projectUrl && (
           <Link href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
             <Button className="bg-white text-black hover:bg-gray-100 w-full text-sm sm:text-base py-4">Website</Button>
           </Link>
+        )}
 
           {project.githubUrl && (
             <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="flex-1">
