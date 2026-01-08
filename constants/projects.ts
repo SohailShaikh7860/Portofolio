@@ -1,4 +1,3 @@
-import { title } from "process";
 
 export interface Project {
     id: number;
@@ -15,25 +14,25 @@ export interface Project {
 export const projects =[
     {
         id:1,
-        title:"Expense Tracker",
-        description:"Full-stack MERN expense tracker with dual modes for transport businesses & personal finance. Features JWT auth, Razorpay payments, budget management, analytics, and brutalist UI. Built with React, Node.js, Express, MongoDB, TailwindCSS.",
+        title:"AI Expense Tracker",
+        description:"Full-stack MERN expense tracker with dual transport/personal modes, AI receipt scanning, monthly AI email reports, JWT auth, Razorpay payments, budgets, and analytics — built with React, Node.js, Express, MongoDB, and TailwindCSS.",
         imageUrl:"/ExpenseTrackor.png",
         projectUrl:"https://myexpenseflow.vercel.app/",
         githubUrl:"https://github.com/SohailShaikh7860/Expense-Trackor.git",
         technologies:["React","Node.js","Express","MongoDB","TailwindCSS","RazorPay"]
     },
     {
-        id:2,
-        title:"AI-Chat-Bot",
-        description:"Full-stack AI Chatbot built with the MERN stack. Supports dynamic conversations, API-powered AI responses, and a responsive modern interface.",
-        imageUrl:"/ai-Team-ChatBot.png",
-        githubUrl:"https://github.com/SohailShaikh7860/AI-Chat-Bot.git",
-        technologies:["React","Node.js","Express","OpenAI GPT-4 API"]
+       id:2,
+       title:"Cli-Ai-Agent",
+       description:"Full-stack AI CLI agent: Chat with OpenAI models, execute tools, and generate complete applications from descriptions. Device-flow authentication, conversation persistence, and Next.js dashboard. TypeScript + Prisma + PostgreSQL.",
+       imageUrl:"/Cli-Ai-Agent.png",
+       githubUrl:"https://github.com/SohailShaikh7860/ai-agent-cli.git",
+       technologies:["Next.js","Node.js","Express","OpenAI API","TypeScript","Prisma","PostgreSQL"]
     },
     {
         id:3,
         title:"Deal-Drop",
-        description:"🛍️ Smart price tracker that monitors e-commerce products and alerts you when prices drop. Built with Next.js & Supabase.",
+        description:"Smart price tracker that monitors e-commerce products and alerts you when prices drop. Built with Next.js & Supabase.",
         imageUrl:"/dealDrop.png",
         projectUrl:"https://deal-drop.vercel.app/",
         githubUrl:"https://github.com/SohailShaikh7860/Deal-Drop.git",
@@ -41,6 +40,14 @@ export const projects =[
     },
     {
         id:4,
+        title:"AI-Chat-Bot",
+        description:"Full-stack AI Chatbot built with the MERN stack. Supports dynamic conversations, API-powered AI responses, and a responsive modern interface.",
+        imageUrl:"/ai-Team-ChatBot.png",
+        githubUrl:"https://github.com/SohailShaikh7860/AI-Chat-Bot.git",
+        technologies:["React","Node.js","Express","OpenAI GPT-4 API"]
+    },
+    {
+        id:6,
         title:"Ai-Code-Reviewer",
         description:"AI code reviewer with OpenAi, Gemini & Hugging Face. Instant feedback on quality, performance & security using Monaco editor. React + Node.js",
         imageUrl:"/Ai-CodeReview.png",
@@ -48,7 +55,7 @@ export const projects =[
         technologies:["React","Node.js","Express","OpenAI","Monaco Editor","Hugging Face","Gemini API"]
     },
     {
-        id:5,
+        id:7,
         title:"ChessGame",
         description:"Real-time multiplayer chess game built with Node.js, Express, Socket.IO, and Chess.js.",
         imageUrl:"/chessgame.png",
