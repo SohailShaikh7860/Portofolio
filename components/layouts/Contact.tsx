@@ -43,19 +43,19 @@ const Contact = () => {
 
   return (
     <div className="mt-16 text-center sm:mt-16 max-w-2xl mx-auto px-4">
-      <div className="inline-block rounded-lg bg-foreground px-3 py-1 text-sm sm:text-lg text-background bg-white text-black font-bold " id="contact">
+      <div className="inline-block rounded-lg bg-gray-900 dark:bg-white px-3 py-1 text-sm sm:text-lg text-white dark:text-black font-bold " id="contact">
         Contact
       </div>
-      <h2 className="font-bold text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">
+      <h2 className="font-bold text-gray-900 dark:text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">
         Get In Touch
       </h2>
-      <p className="text-gray-400 md:text-xl/relaxed mt-2 text-center mb-8">
+      <p className="text-gray-600 dark:text-gray-400 md:text-xl/relaxed mt-2 text-center mb-8">
         Want to chat? Fill out the form below and I'll respond whenever I can.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-4 text-left">
         <div>
-          <label htmlFor="name" className="block text-white text-sm font-medium mb-2">
+          <label htmlFor="name" className="block text-gray-900 dark:text-white text-sm font-medium mb-2">
             Name
           </label>
           <input
@@ -65,13 +65,13 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-blue-500 transition-colors"
+            className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-800 rounded-lg text-gray-900 dark:text-white focus:outline-none focus:border-blue-500 transition-colors"
             placeholder="Your name"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-white text-sm font-medium mb-2">
+          <label htmlFor="email" className="block text-gray-900 dark:text-white text-sm font-medium mb-2">
             Email
           </label>
           <input
@@ -81,13 +81,13 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-blue-500 transition-colors"
+            className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-800 rounded-lg text-gray-900 dark:text-white focus:outline-none focus:border-blue-500 transition-colors"
             placeholder="your.email@example.com"
           />
         </div>
 
         <div>
-          <label htmlFor="message" className="block text-white text-sm font-medium mb-2">
+          <label htmlFor="message" className="block text-gray-900 dark:text-white text-sm font-medium mb-2">
             Message
           </label>
           <textarea
@@ -97,7 +97,7 @@ const Contact = () => {
             onChange={handleChange}
             required
             rows={5}
-            className="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-lg text-white focus:outline-none focus:border-blue-500 transition-colors resize-none"
+            className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-900 border border-gray-300 dark:border-gray-800 rounded-lg text-gray-900 dark:text-white focus:outline-none focus:border-blue-500 transition-colors resize-none"
             placeholder="Your message..."
           />
         </div>
