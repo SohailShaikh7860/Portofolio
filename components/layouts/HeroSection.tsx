@@ -41,27 +41,25 @@ const HeroSection = () => {
       <div className="text-gray-900 dark:text-white mt-8 sm:mt-12 max-w-2xl w-full px-4">
         <h2 className="text-xl sm:text-2xl font-bold mb-4">Education</h2>
 
-        <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-900 dark:to-black border border-gray-300 dark:border-gray-800 rounded-lg p-4 sm:p-5 shadow-lg hover:shadow-xl transition-all duration-300 hover:border-gray-400 dark:hover:border-gray-700">
-          <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-600 rounded-l-lg"></div>
+        <div className="relative bg-white dark:bg-zinc-950 border border-gray-200 dark:border-zinc-800 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-lg hover:border-gray-300 dark:hover:border-zinc-600 transition-all duration-500 overflow-hidden">
+          <div className="absolute top-0 left-0 w-1.5 h-full bg-gray-900 dark:bg-white rounded-l-2xl"></div>
 
-          <div className="flex flex-col gap-3 mb-3">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <div>
-              <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-1">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white leading-snug">
                 New Arts, Commerce and Science College, Parner
               </h3>
-              <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm">
+              <p className="text-gray-500 dark:text-zinc-400 text-xs sm:text-sm mt-1">
                 Bachelor of Science in Computer Science
               </p>
             </div>
-            <div className="text-left sm:text-right">
-              <span className="inline-block bg-gray-300 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-lg text-xs sm:text-sm font-medium">
-                2023 - 2026
-              </span>
-            </div>
+            <span className="inline-flex items-center bg-gray-100 dark:bg-zinc-800/80 text-gray-600 dark:text-zinc-300 px-3 py-1 rounded-full text-xs sm:text-sm font-medium border border-gray-200/80 dark:border-zinc-700/50 shrink-0">
+              2023 - 2026
+            </span>
           </div>
 
-          <div className="flex items-center gap-2 mt-3">
-            <span className="bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full text-xs font-medium">
+          <div className="flex items-center gap-2 mt-4 pt-4 border-t border-gray-100 dark:border-zinc-800/80">
+            <span className="inline-flex items-center gap-1.5 bg-gray-100 dark:bg-zinc-800/80 text-gray-600 dark:text-zinc-300 px-3 py-1 rounded-full text-xs font-medium border border-gray-200/80 dark:border-zinc-700/50">
               Currently in Third Year
             </span>
           </div>

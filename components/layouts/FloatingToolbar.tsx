@@ -9,7 +9,7 @@ const FloatingToolbar = () => {
   };
 
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
+    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 cursor-pointer">
       <div className="flex items-center gap-1 md:gap-2 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border border-gray-300 dark:border-gray-700 rounded-full px-3 py-2 md:px-3.5 md:py-2.5 shadow-xl">
         <div className="relative group">
           <button
