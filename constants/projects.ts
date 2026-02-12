@@ -23,14 +23,23 @@ export const projects =[
     },
     {
        id:2,
-       title:"Cli-Ai-Agent",
+       title:"Forgemate",
        description:"Full-stack AI CLI agent: Chat with OpenAI models, execute tools, and generate complete applications from descriptions. Device-flow authentication, conversation persistence, and Next.js dashboard. TypeScript + Prisma + PostgreSQL.",
        imageUrl:"/Cli-Ai-Agent.png",
        githubUrl:"https://github.com/SohailShaikh7860/ai-agent-cli.git",
        technologies:["Next.js","Node.js","Express","OpenAI API","TypeScript","Prisma","PostgreSQL"]
     },
     {
-        id:3,
+       id:3,
+       title:"Vidora",
+       description:"AI-powered media SaaS — video upload with auto-compression, subtitle generation via OpenAI Whisper, and smart image cropping for social media. Built with Next.js, Cloudinary, and PostgreSQL.",
+       imageUrl:"/vidora.png",
+       projectUrl:"https://cloudinary-saas.vercel.app/",
+       githubUrl:"https://github.com/SohailShaikh7860/vidora.git",
+       technologies:["Next.js","Cloudinary","OpenAI Whisper","PostgreSQL"]
+    },
+    {
+        id:4,
         title:"Deal-Drop",
         description:"Smart price tracker that monitors e-commerce products and alerts you when prices drop. Built with Next.js & Supabase.",
         imageUrl:"/dealDrop.png",
@@ -39,7 +48,7 @@ export const projects =[
         technologies:["Next.js","Supabase","TailwindCSS","firecrawl"]
     },
     {
-        id:4,
+        id:5,
         title:"AI-Chat-Bot",
         description:"Full-stack AI Chatbot built with the MERN stack. Supports dynamic conversations, API-powered AI responses, and a responsive modern interface.",
         imageUrl:"/ai-Team-ChatBot.png",

@@ -93,20 +93,22 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="mt-14 text-center sm:mt-16 max-w-7xl mx-auto" id="projects">
-          <div className="inline-block rounded-lg bg-gray-900 dark:bg-white px-3 py-1 text-sm sm:text-lg text-white dark:text-black font-bold">
-            Projects
+        <div className="mt-16 text-center sm:mt-20 w-full" id="projects">
+          <div className="space-y-3 mb-12">
+            <span className="inline-block rounded-full bg-gray-900 dark:bg-white px-4 py-1.5 text-xs sm:text-sm text-white dark:text-gray-900 font-semibold tracking-wide uppercase">
+              Projects
+            </span>
+            <h2 className="font-bold text-gray-900 dark:text-white text-3xl tracking-tight sm:text-4xl md:text-5xl text-center">
+              Projects & Experiments
+            </h2>
+            <p className="text-gray-500 dark:text-zinc-400 text-sm sm:text-base md:text-lg max-w-xl mx-auto text-center leading-relaxed">
+              A collection of web projects ranging from foundational
+              implementations to full-stack applications, showcasing my growth
+              and practical problem-solving skills.
+            </p>
           </div>
-          <h2 className="font-bold text-gray-900 dark:text-white text-3xl tracking-tighter sm:text-5xl text-center mt-2">
-            Projects & Experiments
-          </h2>
-          <p className="text-gray-600 dark:text-gray-400 md:text-xl/relaxed mt-2 text-center">
-            A collection of web projects ranging from foundational
-            implementations to full-stack applications, showcasing my growth and
-            practical problem-solving skills.
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 max-w-6xl mx-auto">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 max-w-5xl mx-auto">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
