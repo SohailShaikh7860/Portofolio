@@ -20,8 +20,8 @@ const HeroSection = () => {
 
         <div className="flex-shrink-0">
           <Image
-            src="/onePeice.jpg"
-            alt="one Piece Image"
+            src="/Profile.jpeg"
+            alt="Profile Image"
             width={200}
             height={200}
             className="rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 object-cover"
