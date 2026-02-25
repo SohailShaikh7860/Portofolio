@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import ProjectCard from "./ProjectCard";
 import { projects } from "@/constants/projects";
 import  Contact  from "@/components/layouts/Contact";
+import { GitHubCalendar } from "react-github-calendar";
 
 const HeroSection = () => {
   return (
@@ -112,6 +113,27 @@ const HeroSection = () => {
             ))}
           </div>
         </div>
+
+        <div className="mt-16 sm:mt-20 w-full text-center">
+          <div className="space-y-3 mb-10">
+            <span className="inline-block rounded-full bg-gray-900 dark:bg-white px-4 py-1.5 text-xs sm:text-sm text-white dark:text-gray-900 font-semibold tracking-wide uppercase">
+              GitHub
+            </span>
+            <h2 className="font-bold text-gray-900 dark:text-white text-3xl tracking-tight sm:text-4xl md:text-5xl text-center">
+              Contributions
+            </h2>
+          </div>
+
+          <div className="flex justify-center overflow-x-auto">
+            <GitHubCalendar
+              username="sohailshaikh7860"
+              fontSize={14}
+              blockSize={12}
+              blockMargin={4}
+            />
+          </div>
+        </div>
+
 
         <Contact />
       </div>
