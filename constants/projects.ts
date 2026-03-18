@@ -14,7 +14,7 @@ export interface Project {
 export const projects =[
     {
         id:1,
-        title:"AI Expense Tracker",
+        title:"ExpenseFlow: AI Expense Tracker",
         description:"Full-stack MERN expense tracker with dual transport/personal modes, AI receipt scanning, monthly AI email reports, JWT auth, Razorpay payments, budgets, and analytics — built with React, Node.js, Express, MongoDB, and TailwindCSS.",
         imageUrl:"/ExpenseTrackor.png",
         projectUrl:"https://myexpenseflow.vercel.app/",

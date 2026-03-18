@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/layouts/theme-provider";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Sohail Shaikh - Full Stack Developer",
@@ -14,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className={manrope.className}>
         <ThemeProvider
          attribute="class"
             defaultTheme="system"
