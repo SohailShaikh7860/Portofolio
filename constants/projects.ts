@@ -18,7 +18,7 @@ export const projects =[
         description:"Full-stack MERN expense tracker with dual transport/personal modes, AI receipt scanning, monthly AI email reports, JWT auth, Razorpay payments, budgets, and analytics — built with React, Node.js, Express, MongoDB, and TailwindCSS.",
         imageUrl:"/ExpenseTrackor.png",
         projectUrl:"https://myexpenseflow.vercel.app/",
-        githubUrl:"https://github.com/SohailShaikh7860/Expense-Trackor.git",
+        githubUrl:"https://github.com/sohaildevx/ExpenseFlow.git",
         technologies:["React","Node.js","Express","MongoDB","TailwindCSS","RazorPay"]
     },
     {
@@ -26,7 +26,7 @@ export const projects =[
        title:"Forgemate",
        description:"Full-stack AI CLI agent: Chat with OpenAI models, execute tools, and generate complete applications from descriptions. Device-flow authentication, conversation persistence, and Next.js dashboard. TypeScript + Prisma + PostgreSQL.",
        imageUrl:"/Cli-Ai-Agent.png",
-       githubUrl:"https://github.com/SohailShaikh7860/ai-agent-cli.git",
+       githubUrl:"https://github.com/sohaildevx/Forgemate.git",
        technologies:["Next.js","Node.js","Express","OpenAI API","TypeScript","Prisma","PostgreSQL"]
     },
     {
@@ -35,7 +35,7 @@ export const projects =[
        description:"AI-powered media SaaS — video upload with auto-compression, subtitle generation via OpenAI Whisper, and smart image cropping for social media. Built with Next.js, Cloudinary, and PostgreSQL.",
        imageUrl:"/vidora.png",
        projectUrl:"https://cloudinary-saas.vercel.app/",
-       githubUrl:"https://github.com/SohailShaikh7860/vidora.git",
+       githubUrl:"https://github.com/sohaildevx/vidora.git",
        technologies:["Next.js","Cloudinary","OpenAI Whisper","PostgreSQL"]
     },
     {
@@ -44,15 +44,15 @@ export const projects =[
         description:"Smart price tracker that monitors e-commerce products and alerts you when prices drop. Built with Next.js & Supabase.",
         imageUrl:"/dealDrop.png",
         projectUrl:"https://deal-drop.vercel.app/",
-        githubUrl:"https://github.com/SohailShaikh7860/Deal-Drop.git",
+        githubUrl:"https://github.com/sohaildevx/Deal-Drop.git",
         technologies:["Next.js","Supabase","TailwindCSS","firecrawl"]
     },
     {
         id:5,
-        title:"AI-Chat-Bot",
+        title:"Devin-Ai",
         description:"Full-stack AI Chatbot built with the MERN stack. Supports dynamic conversations, API-powered AI responses, and a responsive modern interface.",
         imageUrl:"/ai-Team-ChatBot.png",
-        githubUrl:"https://github.com/SohailShaikh7860/AI-Chat-Bot.git",
+        githubUrl:"https://github.com/sohaildevx/Devin-Ai.git",
         technologies:["React","Node.js","Express","OpenAI GPT-4 API"]
     },
     {
@@ -60,7 +60,7 @@ export const projects =[
         title:"Ai-Code-Reviewer",
         description:"AI code reviewer with OpenAi, Gemini & Hugging Face. Instant feedback on quality, performance & security using Monaco editor. React + Node.js",
         imageUrl:"/Ai-CodeReview.png",
-        githubUrl:"https://github.com/SohailShaikh7860/Ai-Code-Review.git",
+        githubUrl:"https://github.com/sohaildevx/Ai-Code-Review.git",
         technologies:["React","Node.js","Express","OpenAI","Monaco Editor","Hugging Face","Gemini API"]
     },
     {
@@ -68,7 +68,7 @@ export const projects =[
         title:"ChessGame",
         description:"Real-time multiplayer chess game built with Node.js, Express, Socket.IO, and Chess.js.",
         imageUrl:"/chessgame.png",
-        githubUrl:"https://github.com/SohailShaikh7860/Chess-Game.git",
+        githubUrl:"https://github.com/sohaildevx/Chess-Game.git",
         technologies:["Node.js","Express","Socket.IO","Chess.js"]
     }
 ]
