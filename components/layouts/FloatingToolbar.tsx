@@ -53,7 +53,7 @@ const FloatingToolbar = () => {
 
         <div className="relative group">
           <a
-            href="https://github.com/sohailshaikh7860"
+            href="https://github.com/sohaildevx"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

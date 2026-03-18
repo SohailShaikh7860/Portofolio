@@ -126,7 +126,7 @@ const HeroSection = () => {
 
           <div className="flex justify-center overflow-x-auto">
             <GitHubCalendar
-              username="sohailshaikh7860"
+              username="sohaildevx"
               fontSize={14}
               blockSize={12}
               blockMargin={4}
