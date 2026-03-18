@@ -9,23 +9,23 @@ import { GitHubCalendar } from "react-github-calendar";
 const HeroSection = () => {
   return (
     <section className="w-full flex flex-col justify-center items-center pt-10 sm:pt-20 px-4 sm:px-8 py-8">
-      <div className="flex flex-col-reverse sm:flex-row justify-center items-center gap-4 sm:gap-8 w-full max-w-6xl" id="home">
-        <div className="text-gray-900 dark:text-white flex flex-col items-center sm:items-start text-center sm:text-left">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
+      <div className="flex flex-row justify-center items-center gap-3 sm:gap-8 w-full max-w-6xl" id="home">
+        <div className="text-gray-900 dark:text-white flex flex-col items-start text-left">
+          <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             Hi, i'm Sohail{" "}
           </h1>
-          <p className="pt-2 text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300">
+          <p className="pt-1 sm:pt-2 text-sm sm:text-lg md:text-xl text-gray-600 dark:text-gray-300">
             Full Stack Developer
           </p>
         </div>
 
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           <Image
             src="/Profile.jpeg"
             alt="Profile Image"
             width={200}
             height={200}
-            className="rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 object-cover"
+            className="rounded-full w-20 h-20 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 object-cover"
           />
         </div>
       </div>
@@ -73,7 +73,7 @@ const HeroSection = () => {
               key={category}
               className="mb-4 sm:mb-6 flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-4"
             >
-              <h4 className="text-sm sm:text-lg font-semibold capitalize text-gray-600 dark:text-gray-400 sm:min-w-[100px] pt-2">
+              <h4 className="text-sm sm:text-lg font-semibold capitalize text-gray-600 dark:text-gray-400 sm:min-w-25 pt-2">
                 {category}:
               </h4>
 
